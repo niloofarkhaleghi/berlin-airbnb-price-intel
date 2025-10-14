@@ -144,7 +144,6 @@ Interaktives Tableau-Dashboard mit Preis-, Bewertungs- und Nachfrageanalysen fü
 
 ## 💼 Business Insights
 
-💼 **Business Insights**
 
 **Marktstruktur & Preisniveau:**  
 Der Berliner Airbnb-Markt wird stark von *Entire Homes/Apartments* dominiert, die im Schnitt über doppelt so teuer sind wie *Private Rooms*. Hotelzimmer liegen im Premiumsegment.
@@ -165,26 +164,24 @@ Listings mit einer höheren `unavailable_rate_90d` befinden sich meist in zentra
 
 ---
 
-## 🧰 Anforderungen
+## 💾 Output
+- **merged.csv** → enthält alle bereinigten Daten für Tableau  
+- **Dashboard.png** → fertige Visualisierung  
+
+---
+
+## ✨ Credits
+Projekt erstellt im Rahmen einer praktischen Datenanalyse mit Fokus auf **Datenaufbereitung**, **SQL-Validierung** und **Dashboard-Erstellung in Tableau**.  
+
+**Autorin:** Niloofar Khaleghi  
+**Datenquelle:** InsideAirbnb / Berlin Dataset  
+**Zeitraum:** Letzte 90 Tage der Datenerfassung
+
+
+
+## 💾 Anforderungen
 Installiere die benötigten Bibliotheken:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
-
-
-
-## 🧰Output
-
-merged.csv → enthält alle bereinigten Daten für Tableau
-Dashboard.png → fertige Visualisierung
-
-
-
-## ✨ Credits
-
-Projekt erstellt im Rahmen einer praktischen Datenanalyse mit Fokus auf Datenaufbereitung, SQL-Validierung und Dashboard-Erstellung in Tableau.
-
-Autorin: Niloofar Khaleghi
-Datenquelle: InsideAirbnb / Berlin Dataset
-Zeitraum: Letzte 90 Tage der Datenerfassung
