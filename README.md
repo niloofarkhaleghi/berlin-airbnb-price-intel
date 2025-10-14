@@ -137,37 +137,41 @@ Datei: `sql/berlin-airbnb-price-intel.sqbpro`
 ## 📊 Dashboard-Vorschau
 
 Interaktives Tableau-Dashboard mit Preis-, Bewertungs- und Nachfrageanalysen für Berlin
-![Berlin Airbnb Dashboard](Tableu/Dashboard.png)
+![Berlin Airbnb Dashboard](Tableau/Dashboard.png)
 
 
 ---
 
-💼 Business Insights
+## 💼 Business Insights
 
-Marktstruktur & Preisniveau:
-Der Berliner Airbnb-Markt wird stark von Entire Homes/Apartments dominiert, die im Schnitt über doppelt so teuer sind wie Private Rooms. Hotelzimmer liegen im Premiumsegment.
+💼 **Business Insights**
 
-Standortabhängigkeit:
-Höchste Durchschnittspreise treten in zentralen Bezirken wie Mitte, Prenzlauer Berg und Friedrichshain auf – nahe touristischer Attraktionen und Verkehrsanbindung.
+**Marktstruktur & Preisniveau:**  
+Der Berliner Airbnb-Markt wird stark von *Entire Homes/Apartments* dominiert, die im Schnitt über doppelt so teuer sind wie *Private Rooms*. Hotelzimmer liegen im Premiumsegment.
+
+**Standortabhängigkeit:**  
+Die höchsten Durchschnittspreise treten in zentralen Bezirken wie *Mitte*, *Prenzlauer Berg* und *Friedrichshain* auf – nahe touristischer Attraktionen und mit bester Verkehrsanbindung.  
 Randbezirke zeigen signifikant niedrigere Preisniveaus.
 
-Bewertung vs. Preis:
-Es gibt nur eine schwache positive Korrelation zwischen Bewertungen und Preis – hohe Bewertung garantiert also keinen höheren Preis, was auf starke Preisheterogenität hinweist.
+**Bewertung vs. Preis:**  
+Es gibt nur eine schwache positive Korrelation zwischen Bewertungen und Preis – eine hohe Bewertung garantiert also keinen höheren Preis. Dies deutet auf eine starke Preisheterogenität hin.
 
-Kapazitätswirkung:
-Mit zunehmender Gästezahl steigt der Preis deutlich, jedoch nicht linear. Ab etwa 6 Gästen flacht die Preissteigerung ab – ein Hinweis auf Preisdeckelung größerer Objekte.
+**Kapazitätswirkung:**  
+Mit zunehmender Gästezahl steigt der Preis deutlich, jedoch nicht linear. Ab etwa sechs Gästen flacht die Preissteigerung ab – ein Hinweis auf eine mögliche Preisdeckelung größerer Objekte.
 
-Nachfrageindikator:
-Listings mit einer höheren unavailable_rate_90d befinden sich meist in zentralen Lagen – diese Regionen haben die höchste Auslastung und Zahlungsbereitschaft.
+**Nachfrageindikator:**  
+Listings mit einer höheren `unavailable_rate_90d` befinden sich meist in zentralen Lagen – diese Regionen weisen die höchste Auslastung und Zahlungsbereitschaft auf.
+
+
 ---
 
 ## 🧰 Anforderungen
 Installiere die benötigten Bibliotheken:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
----
+
 
 
 ## 🧰Output
